@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "arkovlechauve.github.io": {
+    "arkovlechauvev2.github.io": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -59,10 +59,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "arkovlechauve.github.io:build:production"
+              "buildTarget": "arkovlechauvev2.github.io:build:production"
             },
             "development": {
-              "buildTarget": "arkovlechauve.github.io:build:development"
+              "buildTarget": "arkovlechauvev2.github.io:build:development"
             }
           },
           "defaultConfiguration": "development"
